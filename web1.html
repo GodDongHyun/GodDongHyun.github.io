@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      .Bigimg{
+        display: none;
+      }
+    </style>
+    <script src="http://code.jquery.com/jquery-3.3.1.js">
+      $("#s1").click(function(){
+        $("#big1").fadeIn(1000);
+      });
+      &("#big1").click(function(){
+        $("#big1").fadeOut(1000);
+      });
+    </script>
+  </head>
+  <body>
+    <div id="gallery">
+      <img src="dog1.jpg" width="200" height=" 150"><br>
+      <img src="dog1.jpg" id="s1" width="200" height="150">
+      <img src="dog1.jpg" id="big1"class="Bigimg" width="400" height="300">
+
+    </div>
+  </body>
+</html>
